@@ -1,0 +1,39 @@
+/* Estilos base de CodeSentinel. Se irá ampliando por módulo. */
+:root {
+  --azul: #1f4e79;
+  --azul-claro: #e8f0fe;
+  --gris: #595959;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #f7f9fc;
+  color: #222;
+}
+.navbar {
+  background: var(--azul);
+  color: white;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 14px;
+}
+.contenedor {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.placeholder {
+  border: 2px dashed #c9d6e6;
+  border-radius: 10px;
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--gris);
+  background: white;
+}
